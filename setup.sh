@@ -29,7 +29,7 @@ fi
 echo -e "${GREEN}Upgarding...${NC}"
 read -p "Press [y/n] to continue..." ans
 if [ $ans == "y" ];then
-    apt-get upgarde -y
+    apt-get upgrade -y
 fi
 
 echo "Installing various packages..."
